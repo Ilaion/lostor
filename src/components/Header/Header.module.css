@@ -1,0 +1,16 @@
+.Head {
+    background-color: cadetblue;
+    margin: 15px 15px 5px 15px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 20fr 1fr 1fr;
+}
+
+h1 {
+    color: white;
+    padding: 10px 0px 0px 20px;
+}
+
+.Head a {
+    text-decoration: none;
+}
