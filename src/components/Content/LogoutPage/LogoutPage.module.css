@@ -1,0 +1,42 @@
+.loginform{
+    padding: 0;
+    margin-top: 1.5em;
+    width: 30%;
+    margin-left: 35%;
+    border: 1px solid silver;
+}
+
+
+.loginform input{
+    margin: 1.5em 1em 0 1em;
+    padding: 5px;
+    width: 89%;
+}
+
+.header {
+    margin-top: 0px;
+    background-color: cadetblue;
+    height: 3em;
+
+}
+.header div {
+    font-size: 1.5em;
+    color: white;
+    padding: 0.3em 0 0 0.5em;
+}
+
+.button{
+    padding: 8px;
+    width: 92%;
+    margin: 3.5em 1em 1em 1em;
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.button:hover{
+    background-color: steelblue;
+    cursor: pointer;
+}
