@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Lostor/static/css/main.756742ec.css",
-    "main.js": "/Lostor/static/js/main.83d89024.js",
-    "static/js/787.b1e0a67c.chunk.js": "/Lostor/static/js/787.b1e0a67c.chunk.js",
-    "static/media/Settings.png": "/Lostor/static/media/Settings.f7b1035622557c87aa8e.png",
-    "index.html": "/Lostor/index.html",
-    "main.756742ec.css.map": "/Lostor/static/css/main.756742ec.css.map",
-    "main.83d89024.js.map": "/Lostor/static/js/main.83d89024.js.map",
-    "787.b1e0a67c.chunk.js.map": "/Lostor/static/js/787.b1e0a67c.chunk.js.map"
+    "main.css": "/lostor/static/css/main.756742ec.css",
+    "main.js": "/lostor/static/js/main.b8009ad7.js",
+    "static/js/787.b1e0a67c.chunk.js": "/lostor/static/js/787.b1e0a67c.chunk.js",
+    "static/media/Settings.png": "/lostor/static/media/Settings.f7b1035622557c87aa8e.png",
+    "index.html": "/lostor/index.html",
+    "main.756742ec.css.map": "/lostor/static/css/main.756742ec.css.map",
+    "main.b8009ad7.js.map": "/lostor/static/js/main.b8009ad7.js.map",
+    "787.b1e0a67c.chunk.js.map": "/lostor/static/js/787.b1e0a67c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.756742ec.css",
-    "static/js/main.83d89024.js"
+    "static/js/main.b8009ad7.js"
   ]
 }
