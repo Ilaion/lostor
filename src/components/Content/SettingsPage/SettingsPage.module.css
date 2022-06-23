@@ -1,0 +1,23 @@
+.main{
+    background-color: mediumseagreen;
+    display: grid;
+    grid-template-rows: 4.5em 3.5em 3.5em 3.5em 3.5em 3.5em 3.5em;
+    grid-template-columns: 1fr 14fr;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 1em;
+    border: 1px solid silver;
+}
+.main img {
+    height: 2.5em;
+    margin-top: 0.5em;
+    margin-left: 0.8em;
+}
+
+.main div{
+    margin-top: 0.25em;
+    font-size: 1.8em;
+}
+div:nth-child{
+    color: white;
+}

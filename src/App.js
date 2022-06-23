@@ -13,6 +13,7 @@ const App = (props) => {
             <div className="App">
                 <Header/>
                 <Routes>
+                    <Route path='/*' element={<MainPage/>}/>
                     <Route path='/lostor/login' element={<LogoutPage/>}/>
                     <Route path='/lostor/torrents' element={<MainPage/>}/>
                     <Route path='/lostor/settings' element={<SettingsPage/>}/>
