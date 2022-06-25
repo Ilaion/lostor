@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS series;
+DROP TABLE IF EXISTS torrents;
