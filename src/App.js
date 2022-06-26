@@ -5,6 +5,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import MainPage from "./components/Content/MainPage/MainPage";
 import SettingsPage from "./components/Content/SettingsPage/SettingsPage";
 import LogoutPage from "./components/Content/LogoutPage/LogoutPage";
+import Trackers from './components/Content/Trackers/Trackers';
 
 
 const App = (props) => {
@@ -17,6 +18,7 @@ const App = (props) => {
                     <Route path='/lostor/login' element={<LogoutPage/>}/>
                     <Route path='/lostor/torrents' element={<MainPage/>}/>
                     <Route path='/lostor/settings' element={<SettingsPage/>}/>
+                    <Route path='/lostor/trackers' element={<Trackers/>}/>
                 </Routes>
             </div>
         </BrowserRouter>

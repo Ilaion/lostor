@@ -2,6 +2,7 @@ import React from "react";
 import logo from '../../Header/LogOut/LogOut.png';
 import mod from './MainPage.module.css';
 import {NavLink} from "react-router-dom";
+import plus from './plus.png';
 
 const MainPage = (props) => {
     return (
@@ -13,7 +14,7 @@ const MainPage = (props) => {
                     </NavLink>
                 </div>
                 <div className={mod.Trackers}>
-                    <NavLink to='/lostor/trackers'>
+                    <NavLink to='/lostor/trackers' >
                         <h3>Trackers</h3>
                     </NavLink>
                 </div>
@@ -23,9 +24,20 @@ const MainPage = (props) => {
                     </NavLink>
                 </div>
             </div>
+            <div className={mod.sort}>
+                <label>Sort</label>
+            </div>
             <div className={mod.Filter}>
                 <input placeholder="Filter"/>
+                <select className={mod.droper}>
+                    <option>Last Update</option>
+                    <option>Name</option>
+                </select>
+                <NavLink to='/lostor/torrents'>
+                    <img src={plus} className={mod.plus}/>
+                </NavLink>
             </div>
+
         </div>
     )
 }

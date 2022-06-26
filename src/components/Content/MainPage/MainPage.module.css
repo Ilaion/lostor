@@ -1,6 +1,6 @@
 .Main{
     display: grid;
-    grid-template-rows: 50px 60px;
+    grid-template-rows: 50px 30px 60px;
     background-color: bisque;
     margin: 15px;
     border-radius: 10px;
@@ -8,6 +8,8 @@
 .Con{
     display: grid;
     grid-template-columns: 12fr 12fr 2fr;
+    padding-bottom: 3.9em;
+    border-bottom: 1px solid silver;
 }
 
 .logout {
@@ -19,7 +21,7 @@
     color: black;
 }
 .Filter{
-    border-top: 1px solid silver;
+
     margin-top: 10px;
     padding: 10px;
 }
@@ -29,6 +31,8 @@
     border-radius: 2px;
     border: 0;
     border-bottom: 3px solid silver;
+    width: 85%;
+    opacity: 70%;
 }
 .Last{
     padding-left: 20px;
@@ -53,4 +57,21 @@
 .Filter input:focus{
     outline: none;
     border-bottom: 3px solid darkslategrey;
+}
+.droper{
+    margin-left: 1em;
+    padding: 0.3em;
+}
+.droper:focus{
+    outline: none;
+    border-bottom: 3px solid darkslategrey;
+}
+.sort{
+    margin-left: 88%;
+    margin-top: 1.3em;
+    color: lightslategray;
+}
+.plus{
+height: 1em;
+    margin-left: 0.6em;
 }

@@ -1,0 +1,39 @@
+.Con{
+    display: grid;
+    grid-template-columns: 12fr 12fr 2fr;
+    padding-bottom: 3.9em;
+    border-bottom: 1px solid silver;
+    background-color: bisque;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.logout {
+    height: 25px;
+    padding: 20px 2em 0 50px;
+}
+.Con a {
+    text-decoration: none;
+    color: black;
+}
+
+.Last{
+    padding-left: 20px;
+}
+.Trackers{
+    padding-left: 20px;
+}
+.Last:hover{
+    background-color: cadetblue;
+    opacity: 90%;
+    border-radius: 10px 0 0 0;
+}
+.Trackers:hover {
+    background-color: cadetblue;
+    opacity: 90%;
+}
+.Logout:hover{
+    background-color: cadetblue;
+    opacity: 90%;
+    border-radius: 0 10px 0 0;
+}
