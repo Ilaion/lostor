@@ -1,4 +1,4 @@
-module github.com/rantanevich/lostor
+module github.com/Ilaion/lostor
 
 go 1.18
 
