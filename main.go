@@ -2,9 +2,9 @@ package main
 
 import (
 	"database/sql"
-	"fmt"
 	"log"
 
+	"github.com/gin-gonic/gin"
 	_ "github.com/mattn/go-sqlite3"
 
 	"github.com/Ilaion/lostor/internal/models"
@@ -26,10 +26,12 @@ func main() {
 		torrents: models.TorrentModel{DB: db},
 	}
 
-	series, err := app.series.All()
-	if err != nil {
-		log.Fatalln(err)
-	}
+	router := gin.Default()
+	router.GET("/series/", app.getAllSeries)
+	router.POST("/series/", app.addSeries)
+	router.GET("/series/:id", app.getSeries)
+	router.DELETE("/series/:id", app.deleteSeries)
+	router.GET("/torrent/", app.getAllTorrents)
 
-	fmt.Println(series)
+	router.Run("localhost:8080")
 }
